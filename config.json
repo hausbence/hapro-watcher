@@ -1,0 +1,20 @@
+{
+  "searches": [
+    {
+      "name": "Xbox Series X",
+      "url": "https://hardverapro.hu/aprok/szoftver_jatek/xbox/xbox_series/xbox_series_x/index.html",
+      "include": null,
+      "exclude": "keres(ek|em|ünk|sük)?|kersek|venn[ée]k|vásárol|felvásárl|bérel|karbantart|javít|szerviz|állvány|felújít",
+      "min_price": 100000,
+      "max_price": null
+    },
+    {
+      "name": "PS5 Pro",
+      "url": "https://hardverapro.hu/aprok/szoftver_jatek/playstation/playstation_5/konzolok/index.html",
+      "include": "(?<![a-z])pro(?![a-z])|ps5pro|5pro",
+      "exclude": "keres(ek|em|ünk|sük)?|kersek|venn[ée]k|vásárol|felvásárl|bérel|karbantart|javít|szerviz|állvány|felújít|lemezmeghajt",
+      "min_price": 150000,
+      "max_price": null
+    }
+  ]
+}
