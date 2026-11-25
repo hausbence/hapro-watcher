@@ -91,7 +91,9 @@ def main():
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
     failed = False
 
-    for s in cfg["searches"]:
+    for i, s in enumerate(cfg["searches"]):
+        if i:
+            time.sleep(2)  # robots.txt: crawl-delay 1
         name = s["name"]
         print(f"[{name}]")
         try:

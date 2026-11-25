@@ -2,7 +2,7 @@ name: HardverApró watcher
 
 on:
   schedule:
-    - cron: "7 * * * *"   # hourly, at minute :07 to avoid the top-of-the-hour rush
+    - cron: "7,37 * * * *"   # every 30 minutes, offset to avoid the top-of-the-hour rush
   workflow_dispatch:
 
 permissions:

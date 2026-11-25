@@ -1,6 +1,6 @@
 # HardverApró watcher
 
-Checks the searches defined in `config.json` every hour and sends a push notification through [ntfy.sh](https://ntfy.sh) for each new listing on HardverApró that passes the filters.
+Checks the searches defined in `config.json` every 30 minutes and sends a push notification through [ntfy.sh](https://ntfy.sh) for each new listing on HardverApró that passes the filters.
 
 ## Setup
 1. Install the ntfy app on your phone and subscribe to a **secret, hard-to-guess** topic (for example a long random string).
